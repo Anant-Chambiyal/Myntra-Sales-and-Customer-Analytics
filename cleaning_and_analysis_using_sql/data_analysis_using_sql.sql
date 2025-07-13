@@ -1,5 +1,3 @@
-USE myntra_db;
-
 /* 1) How has the number of new customers, repeat customers, repeat rate and customer retention rate changed on
 quarterly basis. */
 WITH first_orders AS (
