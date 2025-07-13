@@ -1,5 +1,3 @@
-USE myntra_db;
-
 -- Rename some columns in all tables
 ALTER TABLE customers
 RENAME COLUMN c_id TO customer_id,
