@@ -142,6 +142,4 @@ Mnytra can benefit by revisiting its marketing strategy, testing new channels, f
 
 ## Recommendations
 
-Customer Growth and Retention
-
 ## Assumptions and Caveats
