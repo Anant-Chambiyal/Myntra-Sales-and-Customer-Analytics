@@ -142,14 +142,14 @@ Mnytra can benefit by revisiting its marketing strategy, testing new channels, f
 
 ## Recommendations
 
-Sales Growth Strategies:
+Sales Growth Strategies
 
 - **Optimize Seasonal Sales Patterns:** Introduce February-specific promotions such as Valentine's Day offers to improve sales during the low period. Boost inventory in January and November to maximize high demand.
 - **Leverage High-contributing Markets and Customer Segments:** Run localized campaigns in top-performing states using regional languages and festivals. Personalize product recommendations for customers aged 35 and above. Improve delivery time and post-purchase support to strengthen customer loyalty.
 
 ***
 
-Maximize Product Portfolio Balance:
+Maximize Product Portfolio Balance
 
 - **Maintain Category Balance:** Continue monitoring the performance of all categories to maintain a balanced portfolio. Avoid over-dependency on a single product category to reduce risks and ensure conistent sales from a wide range of products. Take advantage of night-time buying behaviour by scheduling push notifications and targeted ads during this period.
 
@@ -168,3 +168,10 @@ Customer Growth and Retention
 - **Increase Customer Purchase Frequency:** Target customers with personalized reengagement campaigns and introduce loyalty tiers with various benefits and rewards. Send personalized recommendations to inactive buyers.
 
 ## Assumptions and Caveats
+
+- **Multiple ratings:** 26.74% of records in the `ratings` table represent multiple ratings for a single order. It is assumed that the customer might give another rating, and Myntra's database stores all the previous ratings.
+- **Multiple transactions:** 26.32% of records in the `transactions` table represent multiple transactions for a single order. It is considered that the customer have opt for EMI to pay for the corresponding order.
+- **Unknown Transaction Mode:** In `transactions` table, 33 records represent `NULL` transaction_mode. For the analysis, these records are kept as it is but there is a possibility that these records represent Cash on Delivery payment method. The Data Engineering team can help validate this lack of data.
+- **Refund Records:**
+  - Around 1k (50.15%) records of `returns_refund` table show that the order date is later than the return date. For this issue, there are 2 possibilities - the first one is that order date and return date got swapped with each other and the second one simply signifies an incorrect return date. For the analysis, the return date for these records is taken as `NULL`.
+  - There are multiple refund records for a single order. Although this is understandable as customer might have applied again for a refund even after the rejection. But in 11 different `order_id`s, it is seen that the rejected return dates are later than the approved return date. Both these issues have to be validated by the Data Engineering team. For the analysis, this issue is kept as it is.
