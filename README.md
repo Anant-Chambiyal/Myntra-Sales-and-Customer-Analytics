@@ -155,17 +155,17 @@ Maximize Product Portfolio Balance
 
 ***
 
-Maintain Low Return Rates
-
-- **Sustain Successful Practices:** Continue using high-quality images, accurate product descriptions and fit guides to help customers choose correctly. Ensure strict quality check before dispatch. Regularly monitor customer feedback and return data to catch early trends. Promote low return products as reliable options.
-
-***
-
 Customer Growth and Retention
 
 - **Boost New Customer Aacquisition:** Launch referral and influencer-driven campaigns. Offer first-time incentives such as exclusive deals or discounts. Refine Myntra's messaging to attract new customers.
 - **Improve Signup to Conversion Funnel:** Send personalized product suggestions. Offer first-order rewards like cashback or loyalty points. Improve the onboarding experience for better engagement.
 - **Increase Customer Purchase Frequency:** Target customers with personalized reengagement campaigns and introduce loyalty tiers with various benefits and rewards. Send personalized recommendations to inactive buyers.
+
+***
+
+Maintain Low Return Rates
+
+- **Sustain Successful Practices:** Continue using high-quality images, accurate product descriptions and fit guides to help customers choose correctly. Ensure strict quality check before dispatch. Regularly monitor customer feedback and return data to catch early trends. Promote low return products as reliable options.
 
 ## Assumptions and Caveats
 
