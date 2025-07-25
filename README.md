@@ -85,11 +85,7 @@ Myntra's sales analysis of 52k records across 2023-2024 shows quarterly revenue 
 
 Mnytra can benefit by revisiting its marketing strategy, testing new channels, fresh influencer partnerships, regional campaigns or app-exclusive offers. With stable customer retention, Myntra can enhance loyalty through deeper personalization and more engaging reward programs. To reduce return rate, myntra can offer exchanges, analyze key return reasons, ensure accurate order fulfillment and timely delivery.
 
-A snapshot of Myntra Sales and Customer Analytics Dashboard is provided below.
-
-<img src="https://github.com/Anant-Chambiyal/Myntra-Sales-and-Customer-Analytics/blob/main/images_and_visualizations/dashboard_screenshot.png" alt="Executive Summary"/>
-
-📁 [Download Myntra Sales and Customer Analytics Full Excel Dashboard](https://github.com/Anant-Chambiyal/Myntra-Sales-and-Customer-Analytics/blob/main/excel_dashboard/myntra_dashboard.xlsx)
+<img src="images_and_visualizations/myntra_dashboard_screenshot.png" alt="Executive Summary"/>
 
 ## Insights Deep-Dive
 
